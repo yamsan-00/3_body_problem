@@ -4,7 +4,7 @@ import tkinter as tk
 
 
 DT = 0.01  # Time step
-CANVAS_SIZE = 600  # Canvas size for visualization
+CANVAS_SIZE = 1000  # Canvas size for visualization
 
 
 class TrisolaranSystem:
@@ -13,7 +13,15 @@ class TrisolaranSystem:
             b.CelestialBody(-1.0, 0.5, 0.0, -0.5, 1.0, "orange", 8),
             b.CelestialBody(1.0, -0.5, 0.0, 0.5, 1.0, "yellow", 8),
             b.CelestialBody(0.5, 1.0, -0.5, 0.0, 1.0, "red", 8),
-            b.CelestialBody(0.3, 0.3, 0.2, -0.1, 0.001, "blue", 4)  # Planet
+            b.CelestialBody(0.3, 0.3, 0.2, -0.1, 0.001, "blue", 4)  ,
+            b.CelestialBody(-1.0, 0.5, 0.0, -0.5, 1.0, "orange", 8),
+            b.CelestialBody(1.5, -0.5, 0.0, 0.5, 1.0, "yellow", 8),
+            b.CelestialBody(6.5, 1.0, -0.5, 0.0, 1.0, "red", 8),
+            b.CelestialBody(-5.3, 0.3, 0.2, -0.1, 0.001, "blue", 4),
+            b.CelestialBody(-4.0, 0.5, 0.0, -0.5, 1.0, "orange", 8),
+            b.CelestialBody(4.0, -0.5, 0.0, 0.5, 1.0, "yellow", 8),
+            b.CelestialBody(-6, 1.0, -0.5, 0.0, 1.0, "red", 8),
+            b.CelestialBody(-3.3, 0.3, 0.2, -0.1, 0.001, "blue", 4)
         ]
         self.init_gui()
         self.update()
