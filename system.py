@@ -4,7 +4,7 @@ import tkinter as tk
 
 
 DT = 0.01  # Time step
-CANVAS_SIZE = 1000  # Canvas size for visualization
+CANVAS_SIZE = 1000
 
 
 class TrisolaranSystem:
